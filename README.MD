@@ -2,8 +2,8 @@
 
 This is bash script which you can use to manage .gitignore files in your projects.
 Allows you to:  
-* Search appropriate .gitignore file in https://github.com/github/gitignore which is cloned in installation folder
-* Copy tjhis template .gitignore file to current working directory
+* Search appropriate .gitignore file in https://github.com/github/gitignore which is cloned into installation folder
+* Copy selected .gitignore file to current working directory
 
 ## Installation
 
