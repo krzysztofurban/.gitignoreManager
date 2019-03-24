@@ -64,7 +64,8 @@ fi
 if [ ${#dirlist[@]} == 1 ]; 
 then
     file=${dirlist[0]}
-    echo "Do you wanna copy $file to your directory? [y/n]"
+    fileName=$(basename $file)
+    echo "Do you wanna copy $fileName to your directory as .gitignore? [y/n]"
     read answer
     if [[ $answer == "yes" || $answer == "y" ]]
     then 

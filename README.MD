@@ -25,10 +25,9 @@ git ignore python
 ```
 This will return 
 ```
-/c/Users/user/Documents/gitScripts/gitIgnore/gitignore/community/Python
-/c/Users/user/Documents/gitScripts/gitIgnore/gitignore/community/Python/JupyterNotebooks.gitignore
-/c/Users/user/Documents/gitScripts/gitIgnore/gitignore/community/Python/Nikola.gitignore
-/c/Users/user/Documents/gitScripts/gitIgnore/gitignore/Python.gitignore
+JupyterNotebooks.gitignore
+Nikola.gitignore
+Python.gitignore
 ```
 If you want to copy one of the listed .gitignore file into your current working directory, type more explicit name for example:
 ```shell
