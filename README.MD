@@ -15,7 +15,7 @@ Open bash and type
 ```cmd
 git ignore --install 
 ```
-This will clone https://github.com/github/gitignore repo and make myGitIgnore folder when you can place your .gitiignore file.
+This will clone https://github.com/github/gitignore repo and make myGitIgnore folder when you can place your .gitignore files. Named your files like angular.gitignore.
 
 ## Usage
 
