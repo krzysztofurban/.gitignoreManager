@@ -69,7 +69,7 @@ then
     read answer
     if [[ $answer == "yes" || $answer == "y" ]]
     then 
-        cp $dirlist "$current_dir/.gitignore"
+        cp $dirlist "$current_dir/$fileName"
         echo "Copied $dirlist into $PWD"
     else
         echo "Copy action cancelled!"
