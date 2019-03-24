@@ -79,6 +79,9 @@ else
     for entry in ${dirlist[*]}
     do
         fileName=$(basename $entry)
-        echo $fileName
+        if [[ "$fileName" == *.gitignore ]]
+        then
+            echo "$fileName"
+        fi
     done
 fi
