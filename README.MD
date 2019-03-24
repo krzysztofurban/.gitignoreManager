@@ -33,7 +33,7 @@ This will return
 If you want to copy one of the listed .gitignore file into your current working directory, type more explicit name for example:
 ```shell
 > git ignore python.gitignore
-o you wanna copy /c/Users/Urban/Documents/gitScripts/gitIgnore/gitignore/Python.gitignore to your directory? [y/n]
+Do you wanna copy /c/Users/Urban/Documents/gitScripts/gitIgnore/gitignore/Python.gitignore to your directory? [y/n]
 > y
 Copied /c/Users/Urban/Documents/gitScripts/gitIgnore/gitignore/Python.gitignore into /c/testGitIgnore
 

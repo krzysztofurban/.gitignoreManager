@@ -78,6 +78,7 @@ else
     echo "Your search was ambigous, I've found specified files:"
     for entry in ${dirlist[*]}
     do
-        echo "$entry"
+        fileName=$(basename $entry)
+        echo $fileName
     done
 fi
