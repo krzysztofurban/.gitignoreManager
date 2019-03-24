@@ -18,6 +18,9 @@ git ignore --install
 This will clone https://github.com/github/gitignore repo and make myGitIgnore folder when you can place your .gitiignore file.
 
 ## Usage
+
+![](terminal.gif)
+
 For example you can type:
 
 ```cmd
